@@ -18,8 +18,19 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="simplest_ffmpeg_streamer.cpp">
+    <ClCompile Include="SimpleStreamingPusher.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MainPusher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleStreamingPusher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
